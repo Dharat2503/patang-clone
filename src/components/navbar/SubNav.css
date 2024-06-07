@@ -1,0 +1,78 @@
+.subnav-container {
+    position: relative;
+  }
+  
+  .placeholder-subnav {
+    height: 0px;
+  }
+  
+  .app-bar-subnav {
+    background-color: #333;
+    color: #a08261;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .toolbar-subnav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50px;
+  }
+  
+  .logo-container-subnav {
+    text-align: center;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-subnav {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+  }
+  
+  .menu-items-subnav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-right: 1%;
+  }
+  
+  .menu-item-subnav {
+    color: #a08261;
+    text-decoration: none;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .menu-items-subnav {
+      gap: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 960px) {
+    .menu-items-subnav {
+      gap: 20px;
+    }
+  }
+  
+  .menu-item-text-subnav {
+    font-size: 12px;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .menu-item-text-subnav {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 960px) {
+    .menu-item-text-subnav {
+      font-size: 16px;
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .textBox {
+    padding: 1%;
+    width: 80%;
+    max-width: 900px; 
+    border-top: 2px solid #a08261;
+    border-bottom: 2px solid #a08261;
+    background-color: #333333c4;
+  }
+  
+  .text {
+    font-size: 30px; 
+    font-weight:200;
+    text-align: center;
+    color: #a08261;
+    margin: 0;
+  }
+  

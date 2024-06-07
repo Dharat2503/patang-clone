@@ -1,0 +1,47 @@
+.subfooter-container {
+    display: flex;
+
+    align-items: center;
+  }
+  
+  .app-bar-subfooter {
+    background-color: #333;
+    color: #a08261;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  .toolbar-subfooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50px;
+  }
+  
+  .logo-container-subfooter {
+    margin-left: 2%;
+    text-align: center;
+  }
+  
+  .menu-icon-subfooter {
+    margin-right: 2%;
+  }
+  
+  .menu-items-subfooter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 2%;
+  }
+  
+  .menu-item-subfooter {
+    color: #a08261;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .drawer-paper-subfooter {
+    background-color: #333;
+    color: #a08261;
+  }
+  
